@@ -684,7 +684,7 @@ input:focus {
 
 /* line 507, ../sass/global.sass */
 .button {
-  background: #00AFB9;
+  background: rgb(185, 120, 0);
   color: #fff;
   font-family: "Work Sans", sans-serif;
   font-size: 18px;
