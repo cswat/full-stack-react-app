@@ -1,0 +1,39 @@
+{
+  "name": "full-stack-react-app",
+  "version": "0.1.0",
+  "description": "React app with REST API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "cross-env DB_ENABLE_LOGGING=true node './seed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cswat/full-stack-react-app.git"
+  },
+  "author": "cswat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cswat/full-stack-react-app/issues"
+  },
+  "homepage": "https://github.com/cswat/full-stack-react-app#readme",
+  "engines": {
+    "node": "12.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "promise.prototype.finally": "^3.1.1",
+    "sequelize": "^5.19.2",
+    "sqlite3": "^4.1.0"
+  }
+}
